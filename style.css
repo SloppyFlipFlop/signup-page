@@ -1,0 +1,71 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightblue;
+}
+
+.create_account-wrapper {
+    display: flex;
+    flex-flow: column;
+}
+
+/* header layout */
+
+.header {
+    display: flex;
+    flex-flow: column;
+    margin: 15px;
+}
+
+.quote {
+    text-align: center;
+    font-size: medium;
+}
+
+.title {
+    text-align: center;
+    font-size: 32px;
+    color: black;
+}
+
+/* login layout */
+
+.user_login_info-wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: auto;
+    /* padding: 5px; */
+}
+
+.user_input-wrapper {
+    padding: 5px;
+}
+
+/* input layout */
+
+.input-title {
+    font-size: 16px;
+}
+
+.input-area {
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: .2rem;
+    background-color: aliceblue;
+}
+
+/* button layout */
+
+button {
+    width: fit-content;
+    border-radius: .25rem;
+    padding: 5px;
+    margin: auto;
+    margin-top: 5px;
+    background-color: #005cc5;
+    outline: none;
+}

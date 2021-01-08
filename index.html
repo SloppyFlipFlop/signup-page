@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='author' content='David Nevarez'>
+    <meta name='Description' content='[Put the description of your website here]'>
+
+    <meta property='og.image' content='images/MyCustomFavicon.png'>
+    <meta property='og.title' content='O mighty T'>
+    <meta property='og.description' content='Just a mighty T'>
+
+    <title>Basic Website</title>
+
+    <link rel='stylesheet' href='style.css'>
+
+    <link rel='shortcut icon' href='MyCustomFavicon.png' type='image/x-icon'>
+</head>
+
+<body>
+
+    <div class="create_account-wrapper">
+        <div class="header">
+            <div class="quote">Join us today</div>
+            <div class="title">Create you account Today</div class="title">
+        </div>
+
+        <div class="user_login_info-wrapper">
+            <!-- <div id="input" data-text="name" contenteditable></div> -->
+            <div class="user_input-wrapper">
+                <label for="user_name" class="input-title">username:</label>
+                <br>
+                <input type="text" id="user_name" class="input-area" name="user.name">
+            </div>
+
+            <div class="user_input-wrapper">
+                <label for="user_email" class="input-title">email:</label>
+                <br>
+                <input type="text" id="user_email" class="input-area" name="user.email">
+            </div>
+
+            <div class="user_input-wrapper">
+                <label for="user_name_pw" class="input-title">password:</label>
+                <br>
+                <input type="text" id="user_name_pw" class="input-area" name="user.pw">
+            </div>
+
+            <div class="user_input-wrapper">
+                <label for="user_cell" class="input-title">phone number:</label>
+                <br>
+                <input type="text" id="user_cell" class="input-area" name="user.cell">
+            </div>
+        </div>
+
+        <button onclick="createAccount()">Create Account</button>
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
